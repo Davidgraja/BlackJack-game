@@ -11,7 +11,7 @@ export const crearCarta = (carta , turno , figuresImg) =>{
 
     const imgCarta  = document.createElement('img');
 
-    imgCarta.src = `../assets/cartas/${carta}.png`;
+    imgCarta.src = `../../public/assets/cartas/${carta}.png`;
     imgCarta.alt= 'Carta Baraja';
     imgCarta.classList.add('cartas');
 
